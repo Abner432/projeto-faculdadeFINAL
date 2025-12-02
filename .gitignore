@@ -1,0 +1,7 @@
+# Common ignores
+node_modules/
+target/
+*.log
+.env
+.vscode/
+.DS_Store
