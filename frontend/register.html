@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Cadastro</title>
+    </head>
+    
+    <body>
+        <div class="container">
+            <h2>Criar conta</h2>
+
+            <form id="registerForm">
+                <input type="text" id="name" placeholder="Seu nome" required>
+                <input type="email" id="email" placeholder="Seu email" required>
+                <input type="password" id="password" placeholder="Sua senha" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+
+            <p>Já tem conta? <a href="login.html">Login</a></p>
+        </div>
+
+        <script src="js/api.js"></script>
+        <script src="js/auth.js"></script>
+    </body>
+</html>
